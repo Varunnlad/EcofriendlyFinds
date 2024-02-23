@@ -208,6 +208,7 @@ public class Aboutus extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void LoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LoginActionPerformed
@@ -215,8 +216,8 @@ public class Aboutus extends javax.swing.JFrame {
     }//GEN-LAST:event_LoginActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-         Homepage Homepage=new Homepage();
-       Homepage.setVisible(true);
+         homesearch hs=new homesearch();
+       hs.setVisible(true);
        this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
